@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This repository is about the layout of a landing page of a podcast.">
+    <meta name="keywords" content="reddit">
+    <title>REDDIT</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+
+</head>
+
+<body class="body">
+    <div class="light-mode-1 initial-bg"></div>
+    <header class="header light-mode-2">
+        <input type="checkbox" id="btn-nav" class="checkbox">
+
+        <div class="menu">
+            <div class="menu-btn">
+                <span class="line light-mode-4" id="line1"></span>
+                <span class="line light-mode-4" id="line2"></span>
+                <span class="line light-mode-4" id="line3"></span>
+            </div>
+        </div>
+
+        <h1 class="logo">REDDIT</h1>
+
+        <nav class="nav_section">
+            <ul class="light-mode-1 navbar_menu" id="nav-desktop">
+                <li>
+                    <div class="nav-noct" id="dark-mode">MODO NOCTURNO</div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="full-size-gif" id="full-size-gif">
+
+
+            <img src="https://media0.giphy.com/media/K2OkBIFxW9KWm1cxMF/giphy.gif?cid=85081a00wti0m7gnakyrzwhly610nv1aku7kt06wzx5w9pyq&rid=giphy.gif&ct=g"
+                alt="full size mode" class="img-full-size-mode" id="img-full-size-mode">
+
+
+            <h1 class="user-title" id="user-title">User</h1>
+            <h2 class="gif-title" id="gif-title">Titulo GIFO</h2>
+            <img src="./src/assets/images/close.svg" alt="close full size mode" class="close-full-size-mode"
+                id="close-full-size-mode">
+            <img src="./src/assets/images/button-slider-left.svg" alt="before full size mode"
+                class="before-full-size-mode" id="before-full-size-mode">
+            <img src="./src/assets/images/Button-Slider-right.svg" alt="next full size mode"
+                class="next-full-size-mode" id="next-full-size-mode">
+            <img src="./src/assets/images/icon-fav-active.svg" alt="favorite full size mode"
+                class="favorite-full-size-mode" id="favorite-full-size-mode">
+            <img src="./src/assets/images/icon-download.svg" alt="download full size mode"
+                class="download-full-size-mode" id="download-full-size-mode">
+        </section>
+        <section class="main-search light-mode-2">
+            <h2 class="main-tittle">
+                BUSCA LOS MEJORES TEMAS<span class="span-gifos"> </span>
+            </h2>
+
+            <section class="gifs-search-section-full" id="gifs-search-section">
+                <div id="gifs-search-container"></div>
+                <img src="./src/assets/images/CTA-ver-mas.svg" alt="Buscar más" id="search-more" class="search-more-btn">
+
+            </section>
+
+        </section>
+
+
+    </main>
+    <footer class="f-gifos light-mode-2">
+        <h1 class="h1-footer">Compartir en:</h1>
+        <section class="icons-shared">
+
+            <img src="./src/assets/images/icon_facebook.svg" alt="icon_facebook">
+            <img src="./src/assets/images/icon-twitter.svg" alt="icon-twitter">
+            <img src="./src/assets/images/icon_instagram.svg" alt="icon_instagram">
+
+        </section>
+        <p class="p-footer">© GIFOS 2020 All Rights Reserved.</p>
+
+    </footer>
+    <script src="./src/scripts/app/app.js" type="module"></script>
+
+
+</body>
+
+</html>
