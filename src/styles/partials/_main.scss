@@ -1,0 +1,65 @@
+.main-tittle {
+  @extend %style-h2-main;
+  width: 70%;
+  margin-top: 1.6%;
+  margin-bottom: 7.6%;
+}
+
+span.span-gifos::after {
+  content: "EN REDDIT";
+  color: $font-color3;
+}
+
+.img-main {
+  width: 72.8%;
+}
+
+.trending {
+  width: 100%;
+  @extend %grid-center;
+}
+
+.h2-trend {
+  @extend %style-h2-trend;
+  margin-top: 7%;
+}
+
+.p-trend {
+  @extend %style-p-trend;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 51%;
+  margin-bottom: 7%;
+}
+
+p.p-trend span::first-letter {
+  text-transform: uppercase;
+  min-width: 100%;
+}
+
+.trending-gifos {
+  overflow: scroll;
+  @extend %grid-center;
+  //background: #f3f5f8;
+}
+
+.h2-trend-gif {
+  @extend %style-h2-trend-gif;
+  margin-top: 7%;
+  margin-bottom: 2%;
+}
+
+.p-trend-gif {
+  @extend %style-p-trend-gif;
+}
+/*
+.div-trend-gif {
+  width: 70%;
+  height: 50rem;
+  @extend %border-test;
+  margin-bottom: 7%;
+}*/
+
+
+

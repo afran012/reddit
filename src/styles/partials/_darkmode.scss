@@ -1,0 +1,70 @@
+/*.dark-mode-1 {
+    background: $bg-color-1-dm ; 
+    
+}
+
+.light-mode-1 {
+    background: $bg-color-1-lm ;     
+}*/
+
+
+.dark-mode-2 {
+    background: $bg-color-2-dm ; 
+    color: $font-color2;
+    
+}
+
+.light-mode-2 {
+    background: $bg-color-2-lm ; 
+    color: $font-color1;        
+}
+
+
+
+
+.dark-mode-3 {        
+    border: $border-secondary;
+    background: $bg-color-2-dm ; 
+    color: $font-color2;
+}
+
+.light-mode-3 {
+    
+    border: $border-primary;  
+    background: $bg-color-2-lm ; 
+    color: $font-color1;  
+    
+}
+
+
+.dark-mode-4 {
+    background: $bg-color-3-dm ;     
+}
+
+.light-mode-4 {
+    background: $bg-color-3-lm ;     
+}
+
+.dark-mode-5 {
+    background: $bg-color-4-dm ;  
+    color: $font-color2;        
+}
+
+.dark-mode-5 {
+    background: $bg-color-4-dm ;  
+    color: $font-color2;        
+}
+
+section.dark-mode-5 h2, section.dark-mode-5 p  {
+    color: $font-color2;     
+
+}
+
+.light-mode-5 {
+    background: $bg-color-4-lm ;    
+}
+
+footer.dark-mode-2 h1 , footer.dark-mode-2 p {
+    color: $font-color2;  
+}
+

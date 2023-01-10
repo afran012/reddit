@@ -1,0 +1,60 @@
+ul.navbar_menu li a {
+  text-decoration: none;
+  @extend %style-menu;
+}
+ul.navbar_menu li div {
+  text-decoration: none;
+  @extend %style-menu;
+}
+
+.navbar_menu {
+  //background: #572ee5 90%;
+  display: none;
+  grid-template-rows: 3rem 0.5rem 3rem 0.5rem 3rem 0.5rem 5rem 0.5rem;
+  grid-template-columns: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 30rem;
+}
+
+.nav-noct {
+  grid-area: 1/1/2/2;
+}
+
+.nav-noct:hover , .nav-fav:hover , .nav-crea:hover , .nav-gif:hover  {
+  border-bottom: 2px solid #5ED7C6;
+}
+
+.nav-noct:active , .nav-fav:active , .nav-crea:active , .nav-gif:active  {
+  font-family: "Montserrat-Bold";
+  font-size: 13px;
+  color: #9CAFC3;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.nav-div1 {
+  grid-area: 2/1/3/2;
+}
+.nav-fav {
+  grid-area: 3/1/4/2;
+}
+.nav-gif {
+  grid-area: 7/1/8/2;
+}
+.nav-crea {
+  grid-area: 11/1/12/2;
+}
+
+.nav-div1,
+.nav-div2,
+.nav-div3,
+.nav-div4 {
+  align-self: center;
+  justify-self: center;
+  opacity: 0.5;
+  width: 2.56rem;
+  height: 0.01rem;
+  background-color: #ffffff;
+}

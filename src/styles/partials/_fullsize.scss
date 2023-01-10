@@ -1,0 +1,83 @@
+.img-full-size-mode {
+  grid-area: 2 / 2 / 5 / 8;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+
+.full-size-gif {
+  //display: grid;
+  display: none;
+  position: sticky;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+
+  //width: 100%;
+  min-height: 80vh;
+  height: 90vh;
+  width: 100%;
+  top: 15%;
+  z-index: 2;
+  background: rgb(255, 255, 255);
+  opacity: 99%;
+}
+
+.user-title {
+  //grid-area: 5 / 2 / 6 / 6;
+  grid-area: 6 / 2 / 7 / 9;
+  font-family: "Roboto-Regular";
+  font-size: 15px;
+  color: #000000;
+  text-align: start;
+  
+}
+
+.gif-title {
+  //grid-area: 7 / 1 / 7 / 6;
+  grid-area: 5 / 2 / 6 / 5;
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+  color: #000000;
+  text-align: start;
+  align-self: flex-end  ;
+}
+
+.close-full-size-mode {
+  grid-area: 1 / 7 / 2 / 8;
+  align-self: center;
+  justify-self: center;
+  z-index: 1;
+}
+
+.gif-max {
+  height: 100%;
+  width: 100%;
+  grid-area: 2 / 3 / 5 / 7;
+}
+
+.before-full-size-mode {
+  display: none;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.next-full-size-mode {
+  display: none;
+  grid-area: 3 / 7 / 4 / 8;
+  justify-self: flex-end;
+}
+
+.favorite-full-size-mode {
+  //display: none;
+  grid-area: 5 / 6 / 6 / 7;
+  justify-self: flex-end;
+  align-self: center;
+}
+
+.download-full-size-mode {
+  //display: none;
+  grid-area: 5 / 7 / 6 / 8;
+  justify-self: flex-end;
+  align-self: center;
+}

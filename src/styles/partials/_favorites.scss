@@ -1,0 +1,50 @@
+.fav-title {
+    @extend %grid-center;
+    font-family: 'Montserrat-Bold';
+    font-size: 25px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 30px;
+}
+
+.not-favorites {
+    @extend %grid-center;
+    font-family: 'Montserrat-Bold';
+    font-size: 22px;
+    color: #50E3C2;
+    text-align: center;
+    line-height: 33px;
+}
+
+
+
+.favorites-section-full {
+    margin-bottom: 7%;
+    margin-top: 7%;
+    //@extend %border-test;
+}
+
+
+//class="gifs-search-section"
+.favorites-section {
+    /*
+    @extend %grid-center;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3%;
+    grid-template-rows: 20% 20% 20% 20%;
+    padding: 5%;
+    width: 100%;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+//class="div-gifo"
+
+
+.icon-favoritos {
+    display: none;
+}
+

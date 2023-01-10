@@ -1,0 +1,38 @@
+class MyGif {
+    constructor(gifId, urlGifBig, urlOrig , _urlSmall) {
+        this._gifId = gifId;
+        this._urlGifBig = urlGifBig;
+        this._urlOrig = urlOrig;
+        this._urlSmall = _urlSmall;
+        this._addedToFavorites = false
+    }
+
+    get urlGifBig(){
+        return this._urlGifBig
+    }
+
+    get urlOrig(){
+        return this._urlOrig
+    }
+
+    get urlSmall(){
+        return this._urlSmall
+    }
+
+    get gifId(){
+        return this._gifId
+    }
+
+    get addedToFavorites(){
+        return this._addedToFavorites
+    }
+
+    set addedToFavorites(addedToFavorites){
+        this._addedToFavorites = addedToFavorites
+    }
+}
+
+export {MyGif} ;
+
+
+

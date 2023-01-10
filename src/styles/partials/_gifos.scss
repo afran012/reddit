@@ -1,0 +1,49 @@
+.favorite-gifo {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);    
+    width: 13rem;
+    height: 8rem;
+    //@extend %border-test;
+}
+
+div.div-icons-gifo img {
+    width: 90%;
+    height: 100%;
+    z-index: 1;
+}
+  
+.div-icons-gifo {
+    grid-area: 1 / 6 / 4 / 11 ;
+    //@extend %border-test;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    //width: 7%;
+    //height: 3%;
+}
+  
+
+.hover-gif {
+    opacity: 0.6;
+    background: #572EE5;
+    grid-area: 1 / 1 / 11 / 11 ;
+    //z-index: 2;
+}
+
+.user-text {
+    grid-area: 6 / 2 / 7 / 11 ;
+    font-family: "Roboto-Regular";
+    font-size: 15px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.tittle-text {
+    grid-area: 7 / 2 / 11 / 11 ;
+    font-family: "Roboto-Bold";
+    font-size: 16px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+  

@@ -1,0 +1,147 @@
+@media screen and ( max-width : 900px ){
+    form.search-gif section.search img.img-close-search {
+        //display: none;
+    }
+
+    .dark-mode-1 {
+        background: $bg-color-1-dm ; 
+        
+    }
+    
+    .light-mode-1 {
+        background: $bg-color-1-lm ;     
+    }
+
+    ul.dark-mode-1 li a {
+        color: $font-color2;
+
+    }
+    ul.dark-mode-1 li div {
+        color: $font-color2;
+
+    }
+    ul.light-mode-1 li div {
+        color: $font-color2; 
+    }    
+    ul.light-mode-1 li a { 
+        color: $font-color2; 
+    } 
+
+}
+
+@media screen and ( min-width : 900px ){
+    header.header nav.nav_section ul.navbar_menu {
+        //background: #FFFFFF;
+  
+    }
+
+    header.header nav.nav_section ul.navbar_menu li div , header.header nav.nav_section ul.navbar_menu li a {
+        font-family: "Montserrat-Bold";
+        font-size: 13px;
+        //color: #572EE5;
+        letter-spacing: 0;
+        text-align: center;      
+    }
+    
+    .nav_section {
+        //align-items: flex-end;
+        //justify-items: flex-end;
+        //justify-self: flex-end;
+        //width: 100%;
+        display: grid;
+        justify-items: flex-end;
+    }
+
+
+    .navbar_menu {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: 100%;
+        //width: 100%;
+        height: 100%;
+        width: 65%;
+        flex-direction: row;
+        background: #FFFFFF;
+
+        //align-items: flex-start;
+        //justify-self: flex-end;
+    }
+
+    .nav-div1 , .nav-div2 , .nav-div3 , .nav-div4 {
+        display: none;
+        grid-area: 1/1/2/2;
+    } 
+
+    .nav-div {
+        display: none;
+    }
+
+    .nav-noct {
+        grid-area: 1/1/2/2;
+    }
+    .nav-fav {
+        grid-area: 1/2/2/3;
+    }
+    .nav-gif {
+        grid-area: 1/3/2/4;
+    }
+    .nav-crea {
+        grid-area: 1/4/2/5;
+    }
+    .menu {
+        display: none;
+    }
+    #btn-nav {
+        display: none;
+    }
+
+
+    .header {
+        grid-template-columns: 10% 90%;
+        grid-template-rows: 100%
+    }
+    /*
+    .nav-desktop {
+        background: #37383C;  
+        color: $font-color2;        
+    }*/
+
+
+
+
+    /////////////// NAV ////////////////
+
+
+    .dark-mode-1 {
+        background: $bg-color-2-dm ; 
+        color: $font-color2;
+
+        
+    }
+    
+    .light-mode-1 {
+        background: $bg-color-2-lm;  
+        color: $font-color1;   
+    }
+
+    ul.dark-mode-1 li a {
+        background: $bg-color-2-dm ; 
+        color: $font-color2;
+
+    }
+    ul.light-mode-1 li div {
+        background: $bg-color-2-lm;  
+        color: $font-color1; 
+
+    }    
+    ul.dark-mode-1 li div {
+        background: $bg-color-2-dm ; 
+        color: $font-color2;
+
+    }
+    ul.light-mode-1 li a {
+        background: $bg-color-2-lm;  
+        color: $font-color1; 
+
+    }    
+}
